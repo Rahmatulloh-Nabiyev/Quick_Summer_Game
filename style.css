@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Assistant:wght@200&family=Cinzel:wght@500;600;700&family=Dancing+Script:wght@700&family=Diplomata+SC&family=Encode+Sans:wght@300&family=Fredoka&family=Heebo:wght@300&family=Indie+Flower&family=Josefin+Sans&family=Karla:wght@300;400&family=Lato:ital,wght@1,300&family=Mukta:wght@300&family=Nanum+Brush+Script&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Plus+Jakarta+Sans:wght@300&family=Poppins:wght@200;300;600&family=Sarabun:wght@200&family=Vazirmatn:wght@300&display=swap');
+
+body {
+    background-color: #11111d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #44475a;
+    width: 500px;
+    height: 280px;
+}
+
+#word {
+    color: #e9fa24;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#input_area {
+    width: 55%;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #11111d;
+    color: #fff;
+    outline: none;
+}
+
+.time_section, .score_section {
+    color: #fff;
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+
+.end_game {
+    display: none;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    font-family: system-ui;
+    font-weight: 600;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.end_game button {
+    background-color: #f4129d;
+    color: #fff;
+    font-size: 20px;
+    padding: 17px;
+    cursor: pointer;
+    border: none;
+}
